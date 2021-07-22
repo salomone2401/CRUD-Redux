@@ -14,14 +14,15 @@ Principios de redux:
 - el state se modifica por medio de funciones(que son las actions)
 
 Terminologia de redux:
--store: contiene al state (solo hay uno por app)
--dispatch: ejecuta una accion que actualizara el state (manda a llamar a una funcion)
--action: objeto js que tiene un tipo y un payload, funciones q modifican el state
--susccribe: similar a un event listener para el state
--reducers: funciones que saben que hacer con las acciones y el payload
+- store: contiene al state (solo hay uno por app)
+- dispatch: ejecuta una accion que actualizara el state (manda a llamar a una funcion)
+- action: objeto js que tiene un tipo y un payload, funciones q modifican el state
+- suscribe: similar a un event listener para el state
+- reducers: funciones que saben que hacer con las acciones y el payload
 
-                                                            state y action
-                                                store  --------------------------> reducers
+                                                state y action
+                                    store  --------------------------> reducers
+
 para crear las rutas:
 1. instalo react-router-dom 
 
